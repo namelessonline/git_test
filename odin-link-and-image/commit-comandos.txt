@@ -1,0 +1,53 @@
+Tipos de Commit Convencionales
+
+feat: Una nueva característica para el usuario.
+
+
+git commit -m "feat: descripción de la nueva característica"
+fix: Corrección de errores.
+
+
+git commit -m "fix: descripción de la corrección de errores"
+docs: Cambios en la documentación.
+
+
+git commit -m "docs: descripción de los cambios en la documentación"
+style: Cambios que no afectan el significado del código (espacios en blanco, formateo, punto y coma faltante, etc.).
+
+
+git commit -m "style: descripción de los cambios de estilo"
+refactor: Cambio de código que no corrige un error ni agrega una funcionalidad.
+
+
+git commit -m "refactor: descripción del refactor"
+perf: Cambio de código que mejora el rendimiento.
+
+
+git commit -m "perf: descripción del cambio de rendimiento"
+test: Agregar pruebas o corregir pruebas existentes.
+
+
+git commit -m "test: descripción de los cambios en las pruebas"
+build: Cambios que afectan el sistema de construcción o dependencias externas (alcance de herramientas como npm, gradle, etc.).
+
+
+git commit -m "build: descripción del cambio en la construcción"
+ci: Cambios en archivos de configuración y scripts de CI (Integración Continua).
+
+
+git commit -m "ci: descripción del cambio en la configuración de CI"
+chore: Actualizaciones de tareas de mantenimiento, no relacionadas directamente con el código fuente (ej. actualizaciones de dependencias).
+
+
+git commit -m "chore: descripción de la tarea de mantenimiento"
+revert: Revertir a un commit anterior.
+
+
+git commit -m "revert: descripción del commit revertido"
+Estructura de un Commit Convencional
+El formato general para un commit convencional es el siguiente:
+
+
+
+git commit -m "feat(parser): add ability to parse arrays"
+Este formato ayuda a mantener un historial de commits claro y estructurado, facilitando la colaboración y el mantenimiento del proyecto a largo plazo.
